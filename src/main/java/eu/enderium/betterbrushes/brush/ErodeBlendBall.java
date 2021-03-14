@@ -10,9 +10,7 @@ import eu.enderium.betterbrushes.utils.ReflectorManager;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -80,9 +78,6 @@ public class ErodeBlendBall extends Brush {
     public List<String> registerArguments() {
         List<String> arguments = ERODE_ARGS.stream().map(String::toLowerCase).collect(Collectors.toList());
         arguments.add("info");
-
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>> " + String.join(", ", arguments));
-
         return arguments;
     }
 

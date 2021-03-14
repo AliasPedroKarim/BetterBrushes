@@ -3,7 +3,6 @@ package eu.enderium.betterbrushes.brush;
 import com.thevoxelbox.voxelsniper.VoxelMessage;
 import com.thevoxelbox.voxelsniper.brush.Brush;
 
-import java.util.Iterator;
 import java.util.Random;
 
 import com.thevoxelbox.voxelsniper.snipe.SnipeData;
