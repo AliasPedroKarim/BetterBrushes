@@ -1,0 +1,8 @@
+api-version: 1.16
+name: BetterBrushes
+main: eu.enderium.betterbrushes.BetterBrushes
+version: 0.0.1
+website: www.enderium.eu
+authors: [ShoukaSeikyo, PedroKarim64]
+description: Brushes extensions to basic VoxelSniper.
+softdepend: [VoxelSniper]
